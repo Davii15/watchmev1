@@ -9,6 +9,12 @@ import PersonalizedRecommendations from "@/components/personalized-recommendatio
 import QuickAccessMenu from "@/components/quick-access-menu"
 import VideoCarousel from "@/components/video-carousel"
 import AdDisplay from "@/components/ad-display"
+import { BusinessAdvertising } from "@/components/business-advertising"
+import { TrustedPartners } from "@/components/trusted-partners"
+
+
+
+
 
 export default function HomePage() {
   return (
@@ -83,6 +89,8 @@ export default function HomePage() {
             <PersonalizedRecommendations />
           </Suspense>
         </section>
+         <BusinessAdvertising />
+         <TrustedPartners />
       </div>
     </main>
   )
